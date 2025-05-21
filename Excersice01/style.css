@@ -1,0 +1,24 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+h2 {
+    color: #333;
+    min-height: 30px;
+}
