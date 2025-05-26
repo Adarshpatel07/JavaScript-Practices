@@ -14,7 +14,7 @@ ul.addEventListener('click', function(event){
 
 for(let lis of li){
     lis.addEventListner('click', function(event){
-    event.stopPropagation();
+      event.stopPropagation();
     console.log('Li was clicked');
     })
 }
